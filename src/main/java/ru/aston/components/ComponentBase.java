@@ -1,8 +1,11 @@
 package ru.aston.components;
 
+import org.springframework.stereotype.Component;
+
 import java.util.Objects;
 
-public class ComponentBase implements Component{
+@Component
+public class ComponentBase implements ComponentInt {
 
     int timeToMake;
 

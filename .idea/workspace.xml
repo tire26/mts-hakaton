@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e71d1fea-ce40-481b-ba7b-383ecb56a117" name="Changes" comment="add components">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/recipes/DoughWithCarbagge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/recipes/DoughWithMeet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/recipes/PieWithFish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/recipes/Recipes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/recipes/RecipesBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/recipes/RecipesCoffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/recipes/RecipesTea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/components/Berry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/components/Carbagge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/components/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/components/ComponentBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/components/Dough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/components/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/components/Meat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/components/Tea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_03_2024_15_20__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_03_2024_15_20__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,25 +43,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.App.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/rosly/Desktop/mts-hakaton",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.App.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="mts-hakaton" />
