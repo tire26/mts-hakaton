@@ -7,7 +7,7 @@ import java.util.List;
 
 public class BuySystem {
 
-    public List<ComponentBase> getComponents(Order order)
+  public static List<ComponentBase> getComponents(Order order)
     {
         List<ComponentBase> componentBaseList = new ArrayList<>();
         for(int i = 0; i < order.getCount();i++)
