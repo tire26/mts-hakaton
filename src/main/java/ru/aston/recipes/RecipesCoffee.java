@@ -10,11 +10,13 @@ public class RecipesCoffee extends RecipesBase {
         super();
     }
 
-    public static void makeCoffee(List<ComponentBase> componentList) {
+    public static RecipesCoffee makeCoffee(List<ComponentBase> componentList) {
 
         if (componentList.contains(new Coffee())) {
             RecipesCoffee coffee = new RecipesCoffee(ComponentStorage.getComponent(Coffee.class.getSimpleName()));
             System.out.println("Coffee is ready");
+            return coffee;
         }
+        return null;
     }
 }

@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e71d1fea-ce40-481b-ba7b-383ecb56a117" name="Changes" comment="add buySystem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/ComponentStorage.java" afterDir="false" />
+    <list default="true" id="e71d1fea-ce40-481b-ba7b-383ecb56a117" name="Changes" comment="add components">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/buySystem/BuySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/buySystem/BuySystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/orders/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/orders/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/orders/service/ScheduledTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/orders/service/ScheduledTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/recipes/RecipesCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/recipes/RecipesCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/recipes/RecipesTea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/recipes/RecipesTea.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +44,10 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -51,6 +59,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,6 +79,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -102,15 +118,7 @@
       <option name="project" value="LOCAL" />
       <updated>1710420744284</updated>
     </task>
-    <task id="LOCAL-00003" summary="add buySystem">
-      <option name="closed" value="true" />
-      <created>1710421630334</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1710421630334</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +126,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add components" />
-    <MESSAGE value="add buySystem" />
-    <option name="LAST_COMMIT_MESSAGE" value="add buySystem" />
+    <option name="LAST_COMMIT_MESSAGE" value="add components" />
   </component>
 </project>

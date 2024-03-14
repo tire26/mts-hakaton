@@ -1,15 +1,17 @@
 package ru.aston.orders.model;
 
+import ru.aston.recipes.RecipesBase;
+
 import java.time.LocalDateTime;
 
 public class Order {
-    String product;
+    RecipesBase product;
     int quantity;
     LocalDateTime dateTime;
     String deliveryType;
     String city;
 
-    public Order(String product, int quantity, LocalDateTime dateTime, String deliveryType, String city) {
+    public Order(RecipesBase product, int quantity, LocalDateTime dateTime, String deliveryType, String city) {
         this.product = product;
         this.quantity = quantity;
         this.dateTime = dateTime;
@@ -17,7 +19,7 @@ public class Order {
         this.city = city;
     }
 
-    public String getProduct() {
+    public RecipesBase getProduct() {
         return product;
     }
 

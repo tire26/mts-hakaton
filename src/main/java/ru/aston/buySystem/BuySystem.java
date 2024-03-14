@@ -5,6 +5,7 @@ import ru.aston.components.ComponentBase;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class BuySystem {
 
   public static List<ComponentBase> getComponents(Order order)

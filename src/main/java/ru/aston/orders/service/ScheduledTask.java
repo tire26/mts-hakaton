@@ -1,13 +1,17 @@
 package ru.aston.orders.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
+import ru.aston.buySystem.ComponentStorage;
+import ru.aston.components.Tea;
 import ru.aston.delivery.service.DeliveryService;
 import ru.aston.orders.model.Order;
+import ru.aston.recipes.RecipesBase;
+import ru.aston.recipes.RecipesTea;
 
 import java.time.LocalDateTime;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 import java.util.Random;
 
@@ -28,7 +32,7 @@ public class ScheduledTask {
             Order newOrder = generateRandomOrder();
             orderQueue.offer(newOrder);
             if (newOrder.getDeliveryType().matches("куреьр")) {
-                Order order = deliveryService.processDelivery(newOrder);
+                deliveryService.processDelivery(newOrder);
             } else if (newOrder.getDeliveryType().matches("у кассы")) {
 
             }
@@ -37,8 +41,7 @@ public class ScheduledTask {
     }
 
     private static Order generateRandomOrder() {
-        String[] products = {"пирожок", "пирог", "чай", "кофе"};
-        String product = products[random.nextInt(products.length)];
+        RecipesBase product = RecipesTea.makeTea(List.of(ComponentStorage.getComponent(Tea.class.getSimpleName())));
         int quantity = random.nextInt(3) + 1;
         LocalDateTime dateTime = LocalDateTime.now();
         String deliveryType = random.nextBoolean() ? "курьер" : "у кассы";
