@@ -4,6 +4,7 @@ package ru.aston.buySystem;
 import org.springframework.stereotype.Component;
 import ru.aston.components.*;
 
+import java.io.Console;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -38,6 +39,14 @@ public class ComponentStorage {
         {
             bufList.add(componentMap.get(componentClassName).get(0));
         }
+        try
+        {
+            Thread.sleep(componentMap.get(componentClassName).get(0).getTimeToMake());
+        }
+       catch (Exception e)
+       {
+           System.out.println("Ошибка потока");
+       }
         componentMap.put(componentClassName,bufList);
     }
 

@@ -14,6 +14,14 @@ public class BuySystem {
         {
             componentBaseList.add(order.getComponent());
         }
+        try
+        {
+            Thread.sleep(order.getComponent().getTimeToMake());
+        }
+        catch (Exception e)
+        {
+            System.out.println("Ошибка потока");
+        }
 
         return componentBaseList;
     }
