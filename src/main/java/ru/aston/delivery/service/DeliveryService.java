@@ -1,5 +1,8 @@
 package ru.aston.delivery.service;
 
-public interface DeliveryService {
+import ru.aston.delivery.model.Address;
+import ru.aston.delivery.model.DeliveryOrder;
 
+public interface DeliveryService {
+    String deliver(DeliveryOrder deliveryOrder, Address address);
 }
