@@ -18,7 +18,7 @@ public class ComponentStorage {
         ComponentStorage.componentMap = componentMap;
     }
 
-    public  ComponentStorage() { // инициализировать сразу с 3 компонентами каждого типа
+    public ComponentStorage() { // инициализировать сразу с 3 компонентами каждого типа
         componentMap.put(Berry.class.getSimpleName(), BuySystem.getComponents(new Order(new Berry(),6)));
         componentMap.put(Carbagge.class.getSimpleName(), BuySystem.getComponents(new Order(new Carbagge(),6)));
         componentMap.put(Coffee.class.getSimpleName(),BuySystem.getComponents(new Order(new Coffee(),6)));

@@ -3,7 +3,7 @@ package ru.aston.delivery.service;
 import org.springframework.stereotype.Service;
 import ru.aston.delivery.model.City;
 import ru.aston.delivery.model.Courier;
-import ru.aston.delivery.model.DeliveryOrder;
+import ru.aston.orders.model.Order;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -22,17 +22,17 @@ public class DeliveryServiceImpl implements DeliveryService {
         cities.put("Санкт-Петербург", new City("Санкт-Петербург"));
         cities.put("Новосибирск", new City("Новосибирск"));
         cities.put("Екатеринбург", new City("Екатеринбург"));
-        executorService =  Executors.newFixedThreadPool(10* cities.values().size());
+        executorService = Executors.newFixedThreadPool(10 * cities.values().size());
     }
 
     @Override
-    public DeliveryOrder processDelivery(DeliveryOrder order) {
+    public Order processDelivery(Order order) {
         String cityName = order.getCity();
         if (!cities.containsKey(cityName)) {
             throw new IllegalArgumentException("Заказ не может быть доставлен");
         }
         City city = cities.get(cityName);
-        Future<DeliveryOrder> future = deliverOrderAsync(order, city.getCouriers());
+        Future<Order> future = deliverOrderAsync(order, city.getCouriers());
         try {
             return future.get();
         } catch (InterruptedException | ExecutionException e) {
@@ -40,11 +40,13 @@ public class DeliveryServiceImpl implements DeliveryService {
         }
     }
 
-    private Future<DeliveryOrder> deliverOrderAsync(DeliveryOrder order, Courier[] couriers) {
+    private Future<Order> deliverOrderAsync(Order order, Courier[] couriers) {
         return executorService.submit(() -> {
             for (Courier courier : couriers) {
                 if (courier.canDeliver(order)) {
                     courier.deliver(order);
+                    Thread.sleep(courier.getCapacity() * 1000);
+                    courier.setCapacity(courier.getCapacity() - 1);
                     return order;
                 }
             }

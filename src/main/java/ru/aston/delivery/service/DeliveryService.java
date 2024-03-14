@@ -1,7 +1,7 @@
 package ru.aston.delivery.service;
 
-import ru.aston.delivery.model.DeliveryOrder;
+import ru.aston.orders.model.Order;
 
 public interface DeliveryService {
-    DeliveryOrder processDelivery(DeliveryOrder order);
+    Order processDelivery(Order order);
 }

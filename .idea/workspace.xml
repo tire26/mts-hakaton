@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e71d1fea-ce40-481b-ba7b-383ecb56a117" name="Changes" comment="add buySystem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/history_system/ClientOrderLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/history_system/DeliverOrderLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/history_system/HistorySystemApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/history_system/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/history_system/RawOrderLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/history_system/RawType.java" afterDir="false" />
+    <list default="true" id="e71d1fea-ce40-481b-ba7b-383ecb56a117" name="Changes" comment="add components">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/buySystem/BuySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/buySystem/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/components/Berry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/components/Berry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/components/Carbagge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/components/Carbagge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/components/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/components/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/components/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/components/ComponentInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/components/ComponentBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/components/ComponentBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/components/Dough.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/components/Dough.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/components/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/components/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/components/Meat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/components/Meat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/components/Tea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/components/Tea.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +56,6 @@
     "Spring Boot.App.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mikle/IdeaProjects/mts-hakaton/src/main/java/ru/aston",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,11 +64,6 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mikle\IdeaProjects\mts-hakaton\src\main\java\ru\aston" />
-    </key>
-  </component>
   <component name="RunManager">
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="mts-hakaton" />
@@ -112,15 +112,7 @@
       <option name="project" value="LOCAL" />
       <updated>1710420744284</updated>
     </task>
-    <task id="LOCAL-00003" summary="add buySystem">
-      <option name="closed" value="true" />
-      <created>1710421630334</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1710421630334</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,8 +120,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add components" />
-    <MESSAGE value="add buySystem" />
-    <MESSAGE value="добавил задержки на заказы" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил задержки на заказы" />
+    <option name="LAST_COMMIT_MESSAGE" value="add components" />
   </component>
 </project>
