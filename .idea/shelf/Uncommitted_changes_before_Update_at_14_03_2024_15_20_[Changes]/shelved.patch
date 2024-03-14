@@ -1,0 +1,44 @@
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><project xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n  xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n  <modelVersion>4.0.0</modelVersion>\r\n\r\n  <groupId>ru.aston</groupId>\r\n  <artifactId>mts-hakaton</artifactId>\r\n  <version>1.0-SNAPSHOT</version>\r\n  <packaging>jar</packaging>\r\n\r\n  <name>mts-hakaton</name>\r\n  <url>http://maven.apache.org</url>\r\n\r\n  <properties>\r\n    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\r\n  </properties>\r\n\r\n  <dependencies>\r\n    <dependency>\r\n      <groupId>junit</groupId>\r\n      <artifactId>junit</artifactId>\r\n      <version>3.8.1</version>\r\n      <scope>test</scope>\r\n    </dependency>\r\n  </dependencies>\r\n</project>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	(revision 0991d0e12bdb1ef8ec1e2074aed9e6c4c4870587)
++++ b/pom.xml	(date 1710418517524)
+@@ -12,6 +12,7 @@
+ 
+   <properties>
+     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
++
+   </properties>
+ 
+   <dependencies>
+Index: src/main/java/ru/aston/App.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package ru.aston;\r\n\r\n/**\r\n * Hello world!\r\n *\r\n */\r\npublic class App \r\n{\r\n    public static void main( String[] args )\r\n    {\r\n        System.out.println( \"Hello World!\" );\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/ru/aston/App.java b/src/main/java/ru/aston/App.java
+--- a/src/main/java/ru/aston/App.java	(revision 0991d0e12bdb1ef8ec1e2074aed9e6c4c4870587)
++++ b/src/main/java/ru/aston/App.java	(date 1710418419570)
+@@ -2,12 +2,9 @@
+ 
+ /**
+  * Hello world!
+- *
+  */
+-public class App 
+-{
+-    public static void main( String[] args )
+-    {
+-        System.out.println( "Hello World!" );
++public class App {
++    public static void main(String[] args) {
++        System.out.println("Hello World!");
+     }
+ }
