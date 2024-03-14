@@ -1,4 +1,4 @@
 package ru.aston.components;
 
-public interface Component {
+public interface ComponentInt {
 }
