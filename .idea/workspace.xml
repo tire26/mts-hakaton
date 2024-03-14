@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e71d1fea-ce40-481b-ba7b-383ecb56a117" name="Changes" comment="add buySystem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/ComponentStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/history_system/ClientOrderLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/history_system/DeliverOrderLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/history_system/HistorySystemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/history_system/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/history_system/RawOrderLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/history_system/RawType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/buySystem/BuySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/buySystem/BuySystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +50,7 @@
     "Spring Boot.App.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mikle/IdeaProjects/mts-hakaton/src/main/java/ru/aston",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,6 +59,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mikle\IdeaProjects\mts-hakaton\src\main\java\ru\aston" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="mts-hakaton" />
@@ -119,6 +129,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add components" />
     <MESSAGE value="add buySystem" />
-    <option name="LAST_COMMIT_MESSAGE" value="add buySystem" />
+    <MESSAGE value="добавил задержки на заказы" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил задержки на заказы" />
   </component>
 </project>
