@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e71d1fea-ce40-481b-ba7b-383ecb56a117" name="Changes" comment="add components">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/buySystem/ComponentStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/buySystem/ComponentStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/recipes/ComponentStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/recipes/DoughWithCarbagge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/recipes/DoughWithCarbagge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/recipes/DoughWithMeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/recipes/DoughWithMeat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/recipes/PieWithFish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/recipes/PieWithFish.java" afterDir="false" />
-    </list>
+    <list default="true" id="e71d1fea-ce40-481b-ba7b-383ecb56a117" name="Changes" comment="add components" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710421636012</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add components">
+      <option name="closed" value="true" />
+      <created>1710424034272</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710424034272</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
