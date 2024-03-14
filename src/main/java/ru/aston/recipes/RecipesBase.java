@@ -6,4 +6,6 @@ public class RecipesBase implements Recipes {
     public int getTimeToMake() {
         return timeToMake;
     }
+
+
 }
